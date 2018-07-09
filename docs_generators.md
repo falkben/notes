@@ -13,7 +13,7 @@ This is a comparison of features of static site generators that are geared towar
 ## [docsify](https://docsify.js.org)
 
 - Vue based
-- Single Page App
+- Single Page App (not SEO-friendly)
 - [Themes](https://docsify.now.sh/themes)
 
 ## [Sphinx](http://www.sphinx-doc.org/)
@@ -45,3 +45,14 @@ This is a comparison of features of static site generators that are geared towar
 - Markdown
 - [Themes](https://orchid.netlify.com/group/themes)
 - Built as a replacement for javadoc
+
+## [VuePress](https://vuepress.vuejs.org/)
+
+- Vue based, Vue Router/ webpack
+- SPA with SSR
+- Serves data as SPA, but creates the static html for SEO
+
+## [GitBook](https://www.gitbook.com)
+
+- Slow reload performance
+- Seems to be focused on becoming a commercial product
